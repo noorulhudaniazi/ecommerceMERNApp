@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.formSectSignUp{
+  margin: 80px 0px;
+  width: auto;
+  height: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #b24dda; */
+}
+
+.formSectSignIN{
+  margin: 80px 0px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bodySignUp{
+  height: auto;
+  box-shadow: #000000;
+}
+
+.inputSignUp{
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 0px 10px;
+}
+
+.regH2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-bottom: 50px;
+}
+
+.formSignup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formSignup label{
+  font-size: 14px;
+}
+
+.formDiv01{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.inputDiv{
+  margin: 10px 0px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputDivOut{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  width: auto;
+}
+
+.submitSignUp{
+  margin-top: 50px;
+  width: 300px;
+  padding: 10px 10px;
+  background: linear-gradient(-135deg, #55abe4, #b24dda);
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.submitSignUp:hover{
+  background: linear-gradient(-135deg, #a2c2d6, #c894dd);
+  border: none;
+  outline: none;
+}
+
+
+.signInBox{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #55abe4; */
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
